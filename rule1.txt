@@ -1,0 +1,602 @@
+[rule] BertSelfAttention($c, position_embedding_type = $pet) -> $s => epoi.ops.xformers_attn.BertSelfAttention($c, position_embedding_type = $pet, attn_op_name="cutlass") -> $s
+[module] models.higginface_transformers.src.transformers.models.nllb_moe.modeling_nllb_moe
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.sew_d.modeling_sew_d
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.table_transformer.modeling_table_transformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.convnextv2.modeling_convnextv2
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.graphormer.modeling_graphormer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.glpn.modeling_glpn
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.bigbird_pegasus.modeling_bigbird_pegasus
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.biogpt.modeling_biogpt
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.visual_bert.modeling_visual_bert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.trajectory_transformer.modeling_trajectory_transformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.blip_2.modeling_blip_2
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.flava.modeling_flava
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.albert.modeling_albert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.videomae.modeling_videomae
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.speech_to_text.modeling_speech_to_text
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.time_series_transformer.modeling_time_series_transformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.m2m_100.modeling_m2m_100
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.squeezebert.modeling_squeezebert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.swin.modeling_swin
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mobilenet_v1.modeling_mobilenet_v1
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.convnext.modeling_convnext
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.gpt_neox.modeling_gpt_neox
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.poolformer.modeling_poolformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.wavlm.modeling_wavlm
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.marian.modeling_marian
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.vilt.modeling_vilt
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.electra.modeling_electra
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.bit.modeling_bit
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.luke.modeling_luke
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.deberta.modeling_deberta
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.pix2struct.modeling_pix2struct
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.conditional_detr.modeling_conditional_detr
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.vision_text_dual_encoder.modeling_vision_text_dual_encoder
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mvp.modeling_mvp
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.donut.modeling_donut
+
+[module] models.higginface_transformers.src.transformers.models.sam.modeling_sam
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.wav2vec2_phoneme.modeling_wav2vec2_phoneme
+
+[module] models.higginface_transformers.src.transformers.models.maskformer.modeling_maskformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.markuplm.modeling_markuplm
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.xlm_prophetnet.modeling_xlm_prophetnet
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.cpmant.modeling_cpmant
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.led.modeling_led
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.longt5.modeling_longt5
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.esm.modeling_esm
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.big_bird.modeling_big_bird
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.auto.modeling_auto
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.bert_generation.modeling_bert_generation
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.wav2vec2_with_lm.modeling_wav2vec2_with_lm
+
+[module] models.higginface_transformers.src.transformers.models.vit_msn.modeling_vit_msn
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.lxmert.modeling_lxmert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.clip.modeling_clip
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.ctrl.modeling_ctrl
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.bertweet.modeling_bertweet
+
+[module] models.higginface_transformers.src.transformers.models.hubert.modeling_hubert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.groupvit.modeling_groupvit
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.qdqbert.modeling_qdqbert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mluke.modeling_mluke
+
+[module] models.higginface_transformers.src.transformers.models.nat.modeling_nat
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.open_llama.modeling_open_llama
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.reformer.modeling_reformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.sew.modeling_sew
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.oneformer.modeling_oneformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.transfo_xl.modeling_transfo_xl
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.focalnet.modeling_focalnet
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.resnet.modeling_resnet
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mask2former.modeling_mask2former
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.tapas.modeling_tapas
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.data2vec.modeling_data2vec
+
+[module] models.higginface_transformers.src.transformers.models.ernie_m.modeling_ernie_m
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.dinat.modeling_dinat
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.speech_encoder_decoder.modeling_speech_encoder_decoder
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.van.modeling_van
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.herbert.modeling_herbert
+
+[module] models.higginface_transformers.src.transformers.models.pegasus_x.modeling_pegasus_x
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.layoutlmv2.modeling_layoutlmv2
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.__init__.py.modeling___init__.py
+
+[module] models.higginface_transformers.src.transformers.models.unispeech_sat.modeling_unispeech_sat
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.t5.modeling_t5
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.dpr.modeling_dpr
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.rwkv.modeling_rwkv
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.__pycache__.modeling___pycache__
+
+[module] models.higginface_transformers.src.transformers.models.layoutlmv3.modeling_layoutlmv3
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.bloom.modeling_bloom
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.nllb.modeling_nllb
+
+[module] models.higginface_transformers.src.transformers.models.xlm_roberta.modeling_xlm_roberta
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.clipseg.modeling_clipseg
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.efficientnet.modeling_efficientnet
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mgp_str.modeling_mgp_str
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mobilebert.modeling_mobilebert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.informer.modeling_informer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.blip.modeling_blip
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.rag.modeling_rag
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.codegen.modeling_codegen
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.deit.modeling_deit
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.dpt.modeling_dpt
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.wav2vec2.modeling_wav2vec2
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.pegasus.modeling_pegasus
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.bart.modeling_bart
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.yoso.modeling_yoso
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.switch_transformers.modeling_switch_transformers
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.dialogpt.modeling_dialogpt
+
+[module] models.higginface_transformers.src.transformers.models.tvlt.modeling_tvlt
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.camembert.modeling_camembert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.roformer.modeling_roformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.timesformer.modeling_timesformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.deformable_detr.modeling_deformable_detr
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.align.modeling_align
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.vit.modeling_vit
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.segformer.modeling_segformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.gpt_neo.modeling_gpt_neo
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.encoder_decoder.modeling_encoder_decoder
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.barthez.modeling_barthez
+
+[module] models.higginface_transformers.src.transformers.models.xlm.modeling_xlm
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.bert.modeling_bert
+
+[patch] #1
+-
+393    self.self = BertSelfAttention(config, position_embedding_type=position_embedding_type)
++
+from epoi.ops.xformers_attn import BertSelfAttention
+self.self = BertSelfAttention(config, position_embedding_type=position_embedding_type, attn_op_name="cutlass")
+
+[stat] 1
+[module] models.higginface_transformers.src.transformers.models.mctct.modeling_mctct
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.bort.modeling_bort
+
+[module] models.higginface_transformers.src.transformers.models.plbart.modeling_plbart
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.wav2vec2_conformer.modeling_wav2vec2_conformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.nezha.modeling_nezha
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.owlvit.modeling_owlvit
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.blenderbot.modeling_blenderbot
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.clap.modeling_clap
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mobilevit.modeling_mobilevit
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.convbert.modeling_convbert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mobilenet_v2.modeling_mobilenet_v2
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mmbt.modeling_mmbt
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mega.modeling_mega
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.vision_encoder_decoder.modeling_vision_encoder_decoder
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.chinese_clip.modeling_chinese_clip
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.megatron_gpt2.modeling_megatron_gpt2
+
+[module] models.higginface_transformers.src.transformers.models.upernet.modeling_upernet
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.trocr.modeling_trocr
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.jukebox.modeling_jukebox
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.unispeech.modeling_unispeech
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.xlm_roberta_xl.modeling_xlm_roberta_xl
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.byt5.modeling_byt5
+
+[module] models.higginface_transformers.src.transformers.models.altclip.modeling_altclip
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.tapex.modeling_tapex
+
+[module] models.higginface_transformers.src.transformers.models.imagegpt.modeling_imagegpt
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.splinter.modeling_splinter
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.longformer.modeling_longformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.layoutxlm.modeling_layoutxlm
+
+[module] models.higginface_transformers.src.transformers.models.dit.modeling_dit
+
+[module] models.higginface_transformers.src.transformers.models.yolos.modeling_yolos
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.opt.modeling_opt
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.nystromformer.modeling_nystromformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.vit_hybrid.modeling_vit_hybrid
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.decision_transformer.modeling_decision_transformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.beit.modeling_beit
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.x_clip.modeling_x_clip
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.cvt.modeling_cvt
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.cpm.modeling_cpm
+
+[module] models.higginface_transformers.src.transformers.models.deta.modeling_deta
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.roberta.modeling_roberta
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.audio_spectrogram_transformer.modeling_audio_spectrogram_transformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.gptj.modeling_gptj
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.distilbert.modeling_distilbert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.bridgetower.modeling_bridgetower
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mt5.modeling_mt5
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.deberta_v2.modeling_deberta_v2
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.speecht5.modeling_speecht5
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.retribert.modeling_retribert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.gpt_sw3.modeling_gpt_sw3
+
+[module] models.higginface_transformers.src.transformers.models.swiftformer.modeling_swiftformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.swinv2.modeling_swinv2
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.regnet.modeling_regnet
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mbart50.modeling_mbart50
+
+[module] models.higginface_transformers.src.transformers.models.roberta_prelayernorm.modeling_roberta_prelayernorm
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.levit.modeling_levit
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.xlnet.modeling_xlnet
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mpnet.modeling_mpnet
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.phobert.modeling_phobert
+
+[module] models.higginface_transformers.src.transformers.models.ernie.modeling_ernie
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.detr.modeling_detr
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.bartpho.modeling_bartpho
+
+[module] models.higginface_transformers.src.transformers.models.perceiver.modeling_perceiver
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.gpt2.modeling_gpt2
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.ibert.modeling_ibert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.flaubert.modeling_flaubert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.vit_mae.modeling_vit_mae
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.roc_bert.modeling_roc_bert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.prophetnet.modeling_prophetnet
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.blenderbot_small.modeling_blenderbot_small
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.megatron_bert.modeling_megatron_bert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.gpt_bigcode.modeling_gpt_bigcode
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.funnel.modeling_funnel
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.bert_japanese.modeling_bert_japanese
+
+[module] models.higginface_transformers.src.transformers.models.fsmt.modeling_fsmt
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.xmod.modeling_xmod
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.gpt_neox_japanese.modeling_gpt_neox_japanese
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.speech_to_text_2.modeling_speech_to_text_2
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.layoutlm.modeling_layoutlm
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.efficientformer.modeling_efficientformer
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.git.modeling_git
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.fnet.modeling_fnet
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.realm.modeling_realm
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.canine.modeling_canine
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.openai.modeling_openai
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.lilt.modeling_lilt
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.llama.modeling_llama
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.whisper.modeling_whisper
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.rembert.modeling_rembert
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.gptsan_japanese.modeling_gptsan_japanese
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.swin2sr.modeling_swin2sr
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.mbart.modeling_mbart
+
+[stat] 0
+[module] models.higginface_transformers.src.transformers.models.xglm.modeling_xglm
+
+[stat] 0
